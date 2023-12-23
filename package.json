@@ -1,0 +1,22 @@
+{
+  "name": "newman-reporter-iteration-tests",
+  "version": "1.0.0",
+  "description": "A simple newman reporter designed to request multiple APIs implementing the same spec, that produces both a JSON and a TSV files in which all tests are only reported as passed or failed (0 or 1), ordered by iterations, then assertions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascripts",
+    "newman",
+    "reporter",
+    "iterationData"
+  ],
+  "author": "Lionel Medini",
+  "license": "CECILL",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "npm": "^10.2.5",
+    "path": "^0.12.7"
+  }
+}
