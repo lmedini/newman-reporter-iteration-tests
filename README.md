@@ -38,7 +38,7 @@ As transmitting configuration values to a reporter can be tricky when newman is 
 Then:
 
 ```
-npm start Test-Collection.postman_collection.json reporters=iteration-tests iterationData=myData.csv
+newman Test-Collection.postman_collection.json  -r iteration-tests -d myData.csv
 ```
 
 As processing numerous iterations over long collections can take time, **one can see the process progressing by looking inside the JSON report file**, which is updated after each iteration. The TSV file is only created at the end of the process.
